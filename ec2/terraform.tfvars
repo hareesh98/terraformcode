@@ -1,0 +1,6 @@
+access_key = ""
+secret_access_key = ""
+region = "ap-south-1"
+instance_type = "t2.micro"
+ami = "ami-079b5e5b3971bd10d"
+instance_name = "terraform-test"
