@@ -1,0 +1,5 @@
+ami_prefix = "goldenami"
+instance_type = "t2.micro"
+region = "ap-south-1"
+sourceami = "ami-079b5e5b3971bd10d"
+username = "ec2-user"
