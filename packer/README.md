@@ -23,6 +23,14 @@ Click Apple Icon(top left of your screen) -> System Preferences -> Security & Pr
 Then re execute the command i.e packer --version. This time you should not get any error. 
 Click ok if you get any prompts.
 
+## Installing packer in ubuntu
+
+```
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main" -y
+sudo apt-get update && sudo apt-get install packer
+```
+
 ## Set aws access key & secret access key
 
 ```
