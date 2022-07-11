@@ -1,0 +1,11 @@
+access_key = ""
+secret_access_key = ""
+region = "ap-south-1"
+include_global_service_events = true
+enable_log_file_validation = true
+enable_logging = true
+is_multi_region_trail = false
+is_organization_trail = false
+bucket_name = "cloudtrail-bucket-11-07-2022"
+cloudwatch_loggroup_name = "cloudtrail/logs"
+cloudtrail_name = "cloudtrail-main"
