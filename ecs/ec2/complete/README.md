@@ -27,4 +27,4 @@ terraform apply
 
 **Step-4** Verifying the resources
 
-After executing the `terraform apply` it should create ec2 cluster with 1 task & 1 service you can be seen in the aws console.
+After executing the `terraform apply` it should create ECS ec2 type cluster with 1 task & 1 service you can be seen in the aws console.
